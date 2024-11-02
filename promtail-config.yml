@@ -14,8 +14,10 @@ scrape_configs:
       - json:
           expressions:
             date: date
-            ip: date
-            device: date
+            country: country
+            device: device
+            deviceBase: deviceBase
+            deviceVersion: deviceVersion
             host: host
             os: os
             arch: arch
