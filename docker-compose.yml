@@ -9,6 +9,7 @@ services:
     command: -config.file=/etc/loki/local-config.yaml
     networks:
       - loki
+    restart: unless-stopped
     volumes:
       - loki_storage:/loki
 
@@ -18,6 +19,7 @@ services:
       - ./promtail-config.yml:/etc/promtail/new-config.yml
       - data:/data
     command: -config.file=/etc/promtail/new-config.yml
+    restart: unless-stopped
     networks:
       - loki
 
@@ -51,6 +53,7 @@ services:
       - '4000:3000'
     networks:
       - loki
+    restart: unless-stopped
     volumes:
       - grafana_storage:/var/lib/grafana
 volumes:
