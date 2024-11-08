@@ -24,14 +24,6 @@ scrape_configs:
       - timestamp:
           source: date
           format: RFC3339Nano
-      - labels:
-          country:
-          device:
-          deviceBase:
-          deviceVersion:
-          host:
-          os:
-          arch:
     static_configs:
       - targets:
           - localhost
