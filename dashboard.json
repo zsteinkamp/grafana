@@ -50,7 +50,7 @@
       },
       "gridPos": {
         "h": 11,
-        "w": 8,
+        "w": 6,
         "x": 0,
         "y": 0
       },
@@ -113,8 +113,8 @@
       },
       "gridPos": {
         "h": 11,
-        "w": 5,
-        "x": 8,
+        "w": 6,
+        "x": 6,
         "y": 0
       },
       "id": 9,
@@ -211,8 +211,8 @@
       },
       "gridPos": {
         "h": 11,
-        "w": 11,
-        "x": 13,
+        "w": 12,
+        "x": 12,
         "y": 0
       },
       "id": 2,
@@ -453,7 +453,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -553,7 +554,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -653,7 +655,8 @@
             "mode": "absolute",
             "steps": [
               {
-                "color": "green"
+                "color": "green",
+                "value": null
               },
               {
                 "color": "red",
@@ -780,13 +783,13 @@
     "list": []
   },
   "time": {
-    "from": "now-24h",
+    "from": "now-30d",
     "to": "now"
   },
   "timepicker": {},
   "timezone": "browser",
   "title": "Device Activity",
   "uid": "ee2h58ssl0etcf",
-  "version": 27,
+  "version": 28,
   "weekStart": ""
 }
