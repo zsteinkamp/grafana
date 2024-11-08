@@ -12,6 +12,7 @@ services:
     restart: unless-stopped
     volumes:
       - loki_storage:/loki
+      - ./loki-local-config.yaml:/etc/loki/local-config.yaml:ro
 
   promtail:
     image: grafana/promtail:2.9.10
